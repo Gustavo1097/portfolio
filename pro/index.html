@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gustavo Pereira Oliveira · Engenharia de Software</title>
+<meta name="description" content="Portfólio de Gustavo Pereira Oliveira, estudante de Engenharia de Software focado em desenvolvimento backend com Java e Spring Boot.">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gustavo Pereira Oliveira · Engenharia de Software">
+<meta property="og:description" content="Estudante de Engenharia de Software focado em backend com Java e Spring Boot.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230A0A0A'/%3E%3Ctext x='32' y='45' font-size='36' font-weight='800' text-anchor='middle' fill='%23FF6FB5' font-family='Arial'%3EG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');try{if(localStorage.getItem('tema')==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script>
+</head>
+<body>
+<a class="pular" href="#sobre">Ir para o conteúdo</a>
+<div class="progresso" id="prog"></div>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="#inicio">Gustavo Oliveira</a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#trajetoria">Trajetória</a>
+      <a href="#conhecimentos">Conhecimentos</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="acoes-topo">
+      <button class="tema" id="tema" type="button" aria-label="Alternar tema claro e escuro"><span aria-hidden="true">☾</span></button>
+      <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="hero" id="inicio">
+    <div class="blob b1"></div><div class="blob b2"></div>
+    <div class="selo" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs><circle cx="60" cy="60" r="58" fill="#E6007E"/><g class="gira"><text font-size="11" font-weight="700" fill="#fff" font-family="Syne,sans-serif"><textPath href="#circ" textLength="270">Engenharia de Software • Backend • Java • </textPath></text></g><text x="60" y="69" text-anchor="middle" font-size="24" font-weight="800" fill="#fff" font-family="monospace">&lt;/&gt;</text></svg></div>
+    <div class="wrap">
+      <div>
+        <h1 aria-label="Gustavo Pereira Oliveira"><span class="w" style="--i:0">Gustavo</span> <span class="w" style="--i:1">Pereira</span> <span class="w" style="--i:2">Oliveira</span></h1>
+        <p class="papel">Estudante de Engenharia de Software, construindo uma carreira em desenvolvimento backend.</p>
+        <p class="digita" aria-live="off">Estou estudando <span id="tipo"></span><span class="cursor" aria-hidden="true"></span></p>
+        <div class="acoes">
+          <a class="btn btn-principal" href="#projetos">Ver projetos</a>
+          <a class="btn btn-sec" href="#contato">Entrar em contato</a>
+          <a class="btn btn-sec rede-btn" title="GitHub" href="https://github.com/Gustavo1097" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg><span class="sr">GitHub</span></a>
+          <a class="btn btn-sec rede-btn" title="LinkedIn" href="https://www.linkedin.com/in/gustavo-pereira-oliveira-3153b43b2" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg><span class="sr">LinkedIn</span></a>
+        </div>
+      </div>
+
+      <div class="codigo" aria-label="Resumo do perfil em formato JSON">
+        <div class="codigo-barra"><span class="status">200 OK</span> GET /gustavo</div>
+<pre><span class="p">{</span>
+  <span class="k">"curso"</span>: <span class="s">"Engenharia de Software"</span>,
+  <span class="k">"objetivo"</span>: <span class="s">"Engenheiro Backend"</span>,
+  <span class="k">"estudando"</span>: <span class="p">[</span>
+    <span class="s">"Java"</span>,
+    <span class="s">"Spring Boot"</span>,
+    <span class="s">"Bancos relacionais"</span>,
+    <span class="s">"Estruturas de dados"</span>
+  <span class="p">]</span>,
+  <span class="k">"foco"</span>: <span class="s">"sistemas escaláveis"</span>
+<span class="p">}</span></pre>
+      </div>
+    </div>
+  </div>
+
+  <div class="faixa" aria-hidden="true">
+    <div class="trilho" id="trilho">
+      <span>Java</span><span>Spring Boot</span><span>Bancos relacionais</span><span>Estruturas de dados</span><span>APIs REST</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+    </div>
+  </div>
+
+  <section id="sobre">
+    <div class="wrap cab">
+      <h2>Sobre mim</h2>
+      <div>
+        <p class="sobre-texto">Olá! Meu nome é Gustavo Pereira Oliveira e estou cursando Engenharia de Software. Tenho grande interesse por desenvolvimento backend e arquitetura de sistemas. Meu objetivo é atuar como <mark>Engenheiro de Software Backend</mark>, criando sistemas escaláveis, eficientes e de alta performance.</p>
+        <div class="foco">
+          <div><strong>Backend</strong><span>APIs RESTful, regras de negócio e organização do código.</span></div>
+          <div><strong>Dados</strong><span>Bancos de dados relacionais e estruturas de dados.</span></div>
+          <div><strong>Arquitetura</strong><span>Sistemas pensados para escalar e ter bom desempenho.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trajetoria">
+    <div class="wrap cab">
+      <h2>Trajetória</h2>
+      <ol class="linha">
+        <li><strong>Cursando Engenharia de Software</strong><span>Base em desenvolvimento de sistemas, com interesse em backend e arquitetura.</span></li>
+        <li><strong>Estudando Java e Spring Boot</strong><span>Bancos de dados relacionais e estruturas de dados no dia a dia.</span></li>
+        <li><strong>Objetivo: Engenheiro de Software Backend</strong><span>Criar sistemas escaláveis, eficientes e de alta performance.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="conhecimentos">
+    <div class="wrap cab">
+      <h2>Conhecimentos</h2>
+      <div>
+        <h3 class="sub">Estudando agora</h3>
+        <ul class="estudo">
+          <li><button type="button" aria-pressed="true" data-d="Linguagem que estou aprendendo para desenvolver backend.">Java</button></li>
+          <li><button type="button" aria-pressed="false" data-d="Framework Java que estou aprendendo para criar APIs.">Spring Boot</button></li>
+          <li><button type="button" aria-pressed="false" data-d="Modelagem de dados e consultas em bancos relacionais.">Bancos de dados relacionais</button></li>
+          <li><button type="button" aria-pressed="false" data-d="A base para escrever código eficiente.">Estruturas de dados</button></li>
+        </ul>
+        <p class="desc" id="desc">Linguagem que estou aprendendo para desenvolver backend.</p>
+
+        <h3 class="sub">Tabela de habilidades</h3>
+        <div class="tabela">
+          <table>
+            <thead>
+              <tr><th>Tecnologia</th><th>Nível</th><th>Onde aplico</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="ico" aria-hidden="true">&lt;/&gt;</span>HTML</td><td><span class="nivel"><span class="barra" aria-hidden="true"><b style="--n:60%"></b></span><em>Intermediário</em></span></td><td>Estrutura de páginas</td></tr>
+              <tr><td><span class="ico" aria-hidden="true">{ }</span>CSS</td><td><span class="nivel"><span class="barra" aria-hidden="true"><b style="--n:60%"></b></span><em>Intermediário</em></span></td><td>Estilização visual</td></tr>
+              <tr><td><span class="ico" aria-hidden="true">JS</span>JavaScript</td><td><span class="nivel"><span class="barra" aria-hidden="true"><b style="--n:60%"></b></span><em>Intermediário</em></span></td><td>Interatividade</td></tr>
+              <tr><td><span class="ico" aria-hidden="true">&gt;_</span>Bots e fluxos</td><td><span class="nivel"><span class="barra" aria-hidden="true"><b style="--n:60%"></b></span><em>Intermediário</em></span></td><td>Automação de processos</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="wrap">
+      <h2>Projetos</h2>
+      <div class="projetos">
+        <article class="card">
+          <div class="card-topo">
+            <h3>Sistema Backend Java</h3>
+            <p>Desenvolvimento de API RESTful com foco em regras de negócio e estrutura de dados.</p>
+            <button type="button" class="det" data-p="api">Ver detalhes</button>
+          </div>
+          <div class="rota">
+            <div class="rota-bt">
+              <button type="button" class="on" data-m="GET">GET /recursos</button>
+              <button type="button" data-m="POST">POST /recursos</button>
+              <button type="button" data-m="PUT">PUT /recursos/1</button>
+            </div>
+            <pre id="resp" aria-live="polite"></pre>
+            <small>Simulação ilustrativa. Clique para testar.</small>
+          </div>
+          <ul class="tags"><li>Java</li><li>API REST</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card-topo">
+            <h3>Renda Verde</h3>
+            <p>Conectando catadores, empresas e cidades.</p>
+            <button type="button" class="det" data-p="renda">Ver detalhes</button>
+          </div>
+          <div class="print">
+            <span>Captura de tela do projeto</span>
+            <img src="img/foto.jpg" alt="Apresentação do projeto Renda Verde: Conectando catadores, empresas e cidades" width="982" height="552" tabindex="0" role="button" aria-label="Ampliar imagem do projeto Renda Verde">
+          </div>
+          <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap cab">
+      <div class="contato-info">
+        <h2>Contato</h2>
+        <p>Quer conversar sobre oportunidades, estágio ou projetos? Escreva para mim.</p>
+        <a class="email" href="mailto:gu.oliveira009@gmail.com">gu.oliveira009@gmail.com</a><button type="button" class="copiar" id="copiar">Copiar e-mail</button>
+        <div class="redes"><a class="rede-btn btn btn-sec" href="https://github.com/Gustavo1097" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>GitHub</a> <a class="rede-btn btn btn-sec" href="https://www.linkedin.com/in/gustavo-pereira-oliveira-3153b43b2" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a></div>
+      </div>
+
+      <form id="form-contato">
+        <label for="nome">Nome
+          <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </label>
+        <label for="email">E-mail
+          <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+        </label>
+        <label for="mensagem">Mensagem
+          <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+        </label>
+        <button type="submit" class="btn btn-principal">Enviar mensagem</button>
+        <p class="aviso" id="aviso" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Portfólio de Gustavo Pereira Oliveira · 2026 · <a href="https://github.com/Gustavo1097" target="_blank" rel="noopener noreferrer" style="color:var(--mint)">GitHub</a> · <a href="https://www.linkedin.com/in/gustavo-pereira-oliveira-3153b43b2" target="_blank" rel="noopener noreferrer" style="color:var(--mint)">LinkedIn</a></p>
+</footer>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="mt">
+  <div class="modal-caixa"><button type="button" class="modal-x" aria-label="Fechar">✕</button><div id="mbody"></div></div>
+</div>
+<div class="zoom" id="zoom" aria-hidden="true"><img alt=""></div>
+<button type="button" class="subir" id="subir" aria-label="Voltar ao topo">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
